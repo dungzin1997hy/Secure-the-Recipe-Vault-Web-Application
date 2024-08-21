@@ -1,0 +1,9 @@
+# Identify tools that will allow you to do the following:
+
+1. Terraform Cloud by HashiCorp
+- Use Case: Scans Infrastructure as Code (IaC) templates.
+- Example Compliance Violation: Terraform Cloud can detect a misconfigured security group in your AWS environment that allows unrestricted SSH access (port 22) from the internet, violating AWS security best practices.
+
+2. Amazon Inspector
+- Use Case: Scans AMIs, containers, and AWS environments for vulnerabilities.
+- Example Vulnerability: Amazon Inspector can identify an outdated version of a software package within an EC2 instance or a container that is vulnerable to CVEs (Common Vulnerabilities and Exposures), like CVE-2021-3156 (a sudo privilege escalation vulnerability).
